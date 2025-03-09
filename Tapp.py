@@ -55,7 +55,7 @@ def handle_voice(message):
     
     bot.send_massage(message.chat.id,text)
 
-@bot.message_handler(content_types=["voice"])
+@bot.message_handler(content_types=["text"])
 def handle_voice(message):
     
     bot.send_massage(message.chat.id,message.text)
